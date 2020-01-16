@@ -1,0 +1,105 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    line-height: 20px;
+    margin:0 auto;
+    padding-top: 20px;
+    background-image: url("../images/bg.png");
+}
+#About,
+#Portfolio,
+#Contact{
+    float: right;
+    margin: 10px
+}
+#cont{
+    width:960px;
+    margin:0 auto;
+}
+#name{
+    position: absolute;
+    padding: 20px;
+    background-color: teal;
+    font-size: large;
+    font-size: 30px;
+    padding-top: 30px;
+    top:0;
+    font-weight: bold;
+    color: white;
+}
+#banner{ 
+    background:white;
+    position:absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height:70px;
+    background-size:100%;
+    top: 0; 
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#am{
+    margin-top: 80px;
+    width:100%;
+    background-color: white;
+    color:teal;
+    font-size: 25px;
+    padding: 30px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+#me{
+    margin-top:20px
+}
+#line{
+    width:80%;
+    height: 10px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cont{
+    width: 960px;
+    margin: 0 auto
+}
+#me{
+    float:left;
+    margin: 0px 20px;
+}
+#me1{
+    color: gray;
+    font-weight: normal;
+    font-size: 14px;
+    word-spacing: 5px;
+}
+#footer{ 
+    background:teal;
+    position:absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height:50px;
+    background-size:100%;
+    bottom: 0; 
+}
+#footerover{
+    background:darkgray;
+    position:absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height:40px;
+    background-size:100%;
+    bottom: 0; 
+    text-align: center;
+    color: red;
+    font-size: 10px; 
+}
+a{
+    text-decoration: none;
+    color: gray
+}
