@@ -92,7 +92,7 @@ body {
 }
 #footer{ 
     background:teal;
-    position:absolute;
+    position:fixed;
     margin: 0;
     left: 0;
     right: 0;
@@ -102,7 +102,7 @@ body {
 }
 #footerover{
     background:darkgray;
-    position:absolute;
+    position:fixed;
     margin: 0;
     left: 0;
     right: 0;
@@ -131,4 +131,54 @@ a{
     height: 100px;
     width: 100%;
     resize: none;
+}
+.MG{
+    width: 150px;
+    background-color: teal;
+    font-size: 18px;;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 115px;
+}
+.ML{
+    width: 150px;
+    background-color: teal;
+    font-size: 18px;;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 115px;
+    margin-left: 350px;
+}
+.MR{
+    width: 150px;
+    background-color: teal;
+    font-size: 18px;;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+.ri{
+    float:left;
+
+    margin-right: 200px;
+    z-index: -1;
+    font-weight: lighter;
+}
+.pf{
+    margin-left: 20px;
+    font-weight: normal;
+}
+#amp{
+    position: relative;
+    margin-top: 80px;
+    width:920px;
+    background-color: white;
+    color:teal;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 150px;
 }
